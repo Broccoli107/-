@@ -1,0 +1,64 @@
+.header{
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+ 
+  justify-content: space-between;
+  
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+
+}
+
+.left-section {
+  display: flex;
+}
+
+.netflix-logo{
+  background-color: black;
+  margin-left: 50px;
+
+}
+
+.netflix-logo:hover{
+  cursor: pointer;
+}
+
+
+.right-section{
+   margin-right: 30px;
+   margin-top: 20px;
+  }
+
+.sentence{ 
+  font-size: 12px;
+}
+
+.JOIN_NOW {
+  background-color: red;
+  margin-right: 5px ;
+  color: white;
+  font-size: 10px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+}
+
+.Sign_Out{
+  background-color: black;
+  color: white;
+  border-color: white;
+  border-width: 0.3px; 
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 17px;
+  padding-right: 17px;
+  border-radius: 5px;
+
+}

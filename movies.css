@@ -1,0 +1,44 @@
+.main-content{
+  margin-top: 120px;
+  margin-left: 40px;
+}
+
+.Korean-Movies{
+  font-family: 'Black Han Sans', sans-serif;
+}
+
+.Korean-cinema{
+  font-size: 12px;
+  margin-bottom: 30px ;
+
+}
+
+.New-Releases{
+  display: grid ;
+  grid-template-columns: repeat(5, 1fr);
+  
+  ;
+
+}
+
+
+.Popular-on-Netflix{
+  display: grid ;
+  grid-template-columns: repeat(5, 1fr);
+  
+  
+}
+.poster{
+  height: auto;
+  width: 250px;
+}
+
+.movie-title{
+  text-align: center;
+  font-size: 12px;
+}
+
+.poster:hover{
+  cursor: pointer;
+}
+
